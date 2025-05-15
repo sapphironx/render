@@ -2,7 +2,7 @@ fastapi
 uvicorn
 numpy
 opencv-python
-tensorflow==2.15.0
+tensorflow==2.19.0
 deepface
 scipy
 python-multipart
