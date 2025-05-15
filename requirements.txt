@@ -4,6 +4,5 @@ numpy
 opencv-python
 tensorflow==2.13.0
 deepface
-python-multipart
 scipy
-tf-keras
+python-multipart
