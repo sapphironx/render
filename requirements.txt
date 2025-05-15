@@ -2,8 +2,8 @@ fastapi
 uvicorn
 numpy
 opencv-python
-tensorflow
+tensorflow==2.13.0
 deepface
 python-multipart
 scipy
-torch
+tf-keras
