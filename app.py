@@ -22,4 +22,4 @@ app.mount("/authorize", authorize_app)
 
 @app.get("/")
 async def root():
-    return {"message": "Face + Voice Authentication API Server Running"}
+    return {"message": "Face Authentication API Server Running"}
