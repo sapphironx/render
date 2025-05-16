@@ -17,7 +17,7 @@ Z_SCORE_THRESHOLD = 2.5  # You can tune this
 @app.post("/")
 async def authorize(image: UploadFile = File(...)):
     start_time = time.perf_counter()
-    TARGET_RESPONSE_TIME = 8  # seconds
+    TARGET_RESPONSE_TIME = 15  # seconds
 
     try:
         contents = await image.read()
